@@ -1,0 +1,46 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "category": "Burgers",
+      "name": "Classic Burger",
+      "price": 199,
+      "image": "/images/vegburger.png",
+      "modifiers": [
+        {
+          "id": "cheese",
+          "name": "Extra Cheese",
+          "price": 20
+        },
+        {
+          "id": "egg",
+          "name": "Add Egg",
+          "price": 30
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Pizza",
+      "name": "Veggie Pizza",
+      "price": 179,
+      "image": "/images/pizza.png",
+      "modifiers": [
+        {
+          "id": "cheese",
+          "name": "Extra Cheese",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Drinks",
+      "name": "Coke",
+      "price": 49,
+      "image": "/images/cola.png",
+      "modifiers": []
+    }
+  ],
+  "orders": []
+}
